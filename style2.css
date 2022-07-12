@@ -1,0 +1,67 @@
+#logoCapta{
+    height: 8%;
+    width: 20%;
+  }   
+
+  body{
+    overflow-x: hidden;
+  }
+
+  #cpfMaskUsuariosSenhas{
+    border-right: 1px solid #ccc; 
+    border-radius:0.375em;
+    border-left: none;
+    border-left-color: transparent;
+    border-top-left-radius: 0em;
+    border-bottom-left-radius: 0em;
+  }
+
+  #cpfMaskUsuariosSenhas:focus{
+    border-right: 1px solid #007bff; 
+    border-radius:0.375em;
+    border-left: none;
+    border-left-color: transparent;
+    border-top-left-radius: 0em;
+    border-bottom-left-radius: 0em;
+  }
+
+  .form-select{
+    text-align: left !important;
+  }
+
+  #qrCodeImg, #qrCodeImgVer{
+    text-align: center;
+    margin-bottom: 0 !important;
+  }
+
+  .layout-menu-toggle{
+    padding: 1em !important;
+  }
+
+  #loading-bar-spinner.spinner {
+    left: 50%;
+    margin-left: -20px;
+    top: 50%;
+    margin-top: -20px;
+    position: absolute;
+    z-index: 19 !important;
+    animation: loading-bar-spinner 800ms linear infinite;
+}
+
+#loading-bar-spinner.spinner .spinner-icon {
+    width: 40px;
+    height: 40px;
+    border:  solid 4px transparent;
+    border-top-color:  #00C8B1 !important;
+    border-left-color: #00C8B1 !important;
+    border-radius: 50%;
+}
+
+@keyframes loading-bar-spinner {
+  0%   { transform: rotate(0deg);   transform: rotate(0deg); }
+  100% { transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+.equalHeight{
+  height:93.5%
+}
